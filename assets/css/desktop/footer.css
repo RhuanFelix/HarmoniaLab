@@ -1,0 +1,10 @@
+@media (width >= 992px){
+    footer{
+        display: flex;
+        align-items: center;
+        padding: 1rem;
+        background-color: #fff;
+        justify-content: space-between;
+        color: #a3a3a3;
+    }
+}

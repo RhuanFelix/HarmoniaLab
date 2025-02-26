@@ -1,0 +1,57 @@
+/* Tablet */
+@media(width > 600px) and (width < 992px){}
+
+/* Phone */
+@media(width <= 600px){
+    main{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+
+        .content{
+            width: 100%;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            padding: 2rem;
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+
+            .svgElement-container{
+                display: flex;
+                flex-wrap: wrap;
+
+                time, span{
+                    display: flex;
+                    align-items: center;
+                    margin-right: 1rem;
+                }
+
+                .svgElement{
+                    width: 15px;
+                    height: 15px;
+                    margin: 0 0.3rem 0 0;
+                }
+            }
+
+            img{
+                width: 100%;
+            }
+
+            a{
+                display: block;
+                z-index: 2;
+                text-decoration: underline;
+                margin: 0;
+                padding: 0;
+                border: 0;
+                margin-left: auto;
+                color: #000;
+            }
+        }
+
+        .search-container{
+            display: none;
+        }
+    }
+}

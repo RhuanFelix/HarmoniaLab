@@ -1,0 +1,17 @@
+@media(width > 600px) and (width < 992px){}
+@media(width <= 600px){
+    main{
+        .content{
+            background-color: #fff;
+            margin: 40px 0;
+            padding: 2rem;
+
+            .title{
+                margin-top: 2rem;
+            }
+        }
+        .search-container{
+            display: none;
+        }
+    }
+}

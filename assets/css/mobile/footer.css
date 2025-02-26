@@ -1,0 +1,26 @@
+/* tablet */
+@media (width > 600px) and (width < 992px){
+    footer{
+        display: flex;
+        align-items: center;
+        padding: 1rem;
+        background-color: #fff;
+        justify-content: space-between;
+        color: #a3a3a3;
+    }
+}
+
+/* phone */
+@media (width <= 600px){
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #fff;
+        color: #a3a3a3;
+
+        p{
+            margin: 0.5rem 0;
+        }
+    }
+}
