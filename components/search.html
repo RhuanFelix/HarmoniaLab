@@ -1,3 +1,14 @@
-<input type="text" placeholder="Pesquisar...">
-<br>
-<button type="submit">Pesquisar</button>
+<form role="search" class="search-form">
+    <label for="search-input" class="visually-hidden">Pesquisar conteúdo</label>
+    <input 
+        type="search" 
+        id="search-input"
+        name="search"
+        placeholder="Pesquisar..." 
+        aria-label="Pesquisar conteúdo"
+    >
+    <button type="submit" aria-label="Realizar pesquisa">
+        <i class="bi bi-search"></i>
+        Pesquisar
+    </button>
+</form>
