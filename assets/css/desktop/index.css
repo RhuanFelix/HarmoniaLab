@@ -202,7 +202,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Títulos dentro da área de conteúdo */
-.content h2 {
+.content h1 {
     font-size: 1.75rem;
     margin-bottom: var(--spacing-md);
     padding-bottom: var(--spacing-sm);
@@ -212,6 +212,35 @@ h1, h2, h3, h4, h5, h6 {
 /* Parágrafos dentro da área de conteúdo */
 .content p {
     margin-bottom: var(--spacing-md);
+}
+
+.featured-posts img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--radius-lg);    
+}
+
+.featured-posts a{
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+.featured-posts h2{
+    margin: 0;
+}
+
+.featured-posts .description{
+    border-bottom: 2px solid var(--color-border);
+    padding-bottom: var(--spacing-md);
+    margin-bottom: var(--spacing-md);
+}
+
+.featured-posts .description .svgElement{
+    margin-right: var(--spacing-xs);
+}
+
+.featured-posts .description time, .featured-posts .description span{
+    margin-right: var(--spacing-sm);
 }
 
 /* Sidebar com layout em coluna */

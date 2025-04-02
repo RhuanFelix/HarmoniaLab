@@ -1,46 +1,21 @@
-<section class="desktop">
-    <h1>HarmoniaLab</h1>
-    <nav>
-        <ul>
-            <li>
-                <a href="/index.html">Home</a>
-            </li>
-            <!-- <li>
-                <a href="#">Portfólio</a>
-            </li> -->
-            <li>
-                <a href="/pages/sobre.html">Sobre</a>
-            </li>
-        </ul>    
-    </nav>
-</section>
-
-<section class="phone">
-    <section class="dropdown">
-        <i class="svg bi-list" id="menu"></i>
-        <nav class="dropdown-items menu">
-            <ul>
-                <section class="exit-menu">
-                    <i class="svg bi-arrow-left"></i>
-                    <p>Sair do Menu</p>
-                </section>
-                <hr>
-                <li><a href="/index.html">Home</a></li>
-                <!-- <li><a href="#">Portfólio</a></li> -->
-                <li><a href="/pages/sobre.html">Sobre</a></li>
-            </ul>    
-        </nav>    
-    </section>
-    <h1>HarmoniaLab</h1>
-    <section class="dropdown">
-        <i class="svg bi-search" id="search"></i>
-        <nav class="dropdown-items-search">
-            <section>
-                <i class="svg bi-search"></i>
-                <input type="text" placeholder="Pesquisar">
-                <h1 id="exit-search">X</h1>    
-            </section>
-            <hr>
+<header class="header">
+    <div class="header-container">
+        <a href="/" class="logo">
+            <div class="logo-icon">
+                <i class="bi bi-music-note"></i>
+            </div>
+            <h1>HarmoniaLab</h1>
+        </a>
+        
+        <nav class="nav-desktop">
+            <a href="/">Home</a>
+            <a href="/pages/sobre.html">Sobre</a>
         </nav>
-    </section>
-</section>
+        
+        <div class="nav-mobile">
+            <button aria-label="Menu" id="menu-button">
+                <i class="bi bi-list"></i>
+            </button>
+        </div>
+    </div>
+</header>

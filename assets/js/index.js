@@ -5,7 +5,7 @@ function createContent(content1, content2, content3, content4, content5) {
     content5.appendChild(content4);
 }
 
-const sectionContent = document.querySelector('.content')
+const sectionContent = document.querySelector('.featured-posts')
 
 let posts = []
 
@@ -16,7 +16,7 @@ fetch('/data/index.json')
 
     posts.map((item)=>{
         let sectionDescription = document.createElement('section');
-        let h1Element = document.createElement('h1');
+        let h2Element = document.createElement('h2');
         let aElementAssignment = document.createElement('a');
         let timeElement = document.createElement('time');
         let spanElement1 = document.createElement('span');
@@ -44,8 +44,8 @@ fetch('/data/index.json')
         sectionContent.appendChild(aElement);
 
         let titleContet = document.createTextNode(item.titulo);
-        h1Element.appendChild(titleContet);
-        aElement.appendChild(h1Element);
+        h2Element.appendChild(titleContet);
+        aElement.appendChild(h2Element);
         sectionContent.appendChild(aElement);
 
         createContent(svgElement1, timeElement, sectionDescription, aElement, sectionContent);
